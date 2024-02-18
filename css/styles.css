@@ -280,6 +280,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 margin-top: 16px;
+max-width: 292px;
+
 }
 .logo-footer {
 font-family: "Raleway", sans-serif;
@@ -293,9 +295,5 @@ font-family: "Raleway", sans-serif;
 .footer-page {
     background-color: #2e2f42;    
     padding: 120px 0;
-    
-}
-.container-footer {
-max-width: 292px;
-margin-right: 1020px;D
+
 }
