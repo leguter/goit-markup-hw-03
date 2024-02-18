@@ -65,7 +65,9 @@ img {
     background-color: #2e2f42;
         padding:188px 0;
 }
-
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .main-title {
    max-width: 496px;
     font-weight: 700;
@@ -83,6 +85,7 @@ button {
 } 
 .order-button {
     min-width:169px;
+    height: 56px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -91,8 +94,8 @@ button {
     background-color:#4D5AE5;
     margin:0px auto;
         padding:16px 32px;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
+    border: none;
+    
     display: block;
 }
 
@@ -186,7 +189,8 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .h2-hidden {
-    visibility: hidden;
+    visibility:visually-hidden;
+    
 }
 
 
@@ -220,7 +224,7 @@ color: #434455;
             gap: 24px;
         }
         .team-div{
-        padding: 0 0 32px 0;
+        padding: 32px 0;
         align-items: center;
         }
 
@@ -231,7 +235,7 @@ color: #434455;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
         padding-top: 32px;
 }
 .team-position {
@@ -279,11 +283,10 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-margin-top: 16px;
 max-width: 292px;
 
 }
-.logo-footer {
+.logo-footer-part {
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -291,9 +294,13 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    
 }
 .footer-page {
     background-color: #2e2f42;    
-    padding: 120px 0;
-
+    padding: 100px 0;
+}
+.logo-footer {
+    margin-bottom: 16px;
+    display: inline-block;
 }
